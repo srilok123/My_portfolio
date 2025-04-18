@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image Gallery</title>
+    
+    <style>
+        .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 15px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+    </style>
+</head>
+
+<body>
+    <marquee  scrollamount="10">
+        <h1>Welcome to my portfolio website.</h1>
+    </marquee>
+    <table border="2" cellspacing="10" cellpadding="5" width="100%">
+        <tr>
+            <h3>
+
+        <tr>
+            <td align="center"><a href=h.html>Home</a></td>
+            <td align="center"><a href=g.html>Gallery</a></td>
+            <td align="center"><a href=p.html>Portfolio</a></td>
+            <td align="center"><a href=c.html>Contact</a></td>
+
+            </center>
+            </h3>
+        </tr>
+        </h3>
+    </table>
+    <br>
+    <br>
+    
+    <div class="gallery">
+        <img src="i1.jpg" alt="Image 3">
+        <img src="i2.jpg" alt="Image 4">
+        <img src="i3.jpg" alt="Image 5">
+        <img src="i4.jpg" alt="Image 6">
+    </div>
+    
+</body>
+
+</html>
